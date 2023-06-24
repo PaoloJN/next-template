@@ -1,34 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 Starter Template
+
+Template for a Next.js 13 application. It is preconfigured with TypeScript, ESLint, Prettier, Tailwind CSS, [Shadcn UI](https://ui.shadcn.com), and many more features to kick-start your Next.js development.
+
+## Features
+
+- Next.js 13 App Directory
+- Radix UI Primitives
+- Tailwind CSS
+- Icons from Lucide
+- Dark mode with next-themes
+
+
+## Requirements
+
+Before starting, make sure you have Node.js and pnpm installed on your system.
+
+- Node.js 12.0+ 
+- pnpm 6.0+
 
 ## Getting Started
 
-First, run the development server:
+### Using create-next-app
+
+To create a new project based on this template, run:
+
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npx create-next-app -e https://github.com/PaoloJN/next-template
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Clone the Repository
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+First, clone this repository to your local machine:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+git clone https://github.com/yourusername/nextjs13-template.git
+cd nextjs13-template
+```
 
-## Learn More
+### Install Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+To install the required dependencies, run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Run the Application
 
-## Deploy on Vercel
+You can start the development server with:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Then, open `http://localhost:3000` in a browser.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `pnpm run dev` - Starts the development server.
+- `pnpm run build` - Builds the app for production.
+- `pnpm start` - Runs the built app in production mode.
+- `pnpm run lint` - Lints the codebase using Next.js lint.
+- `pnpm run preview` - Builds the app and starts it in production mode for previewing.
+- `pnpm run format:write` - Formats the codebase using Prettier and writes the changes.
+- `pnpm run format:check` - Checks if the codebase is formatted correctly using Prettier.
+
+## Contributing
+
+Contributions are welcome! Please see our [contributing guidelines](./CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the terms of the [MIT license](./LICENSE).
+
+## Support
+
+If you're having any problem, please raise an issue on GitHub.
+
+**Happy coding!**
+
