@@ -1,6 +1,6 @@
 # Next.js 13 Starter Template
 
-Template for a Next.js 13 application. It is preconfigured with TypeScript, ESLint, Prettier, Tailwind CSS, [Shadcn UI](https://ui.shadcn.com), and many more features to kick-start your Next.js development.
+Template for a Next.js 13 application. It is preconfigured with TypeScript, ESLint, Prettier, Tailwind CSS, Shadcn UI, and many more features to kick-start your Next.js development.
 
 ## Features
 
@@ -26,7 +26,7 @@ To create a new project based on this template, run:
 
 
 ```bash
-npx create-next-app -e https://github.com/PaoloJN/next-template
+pnpx create-next-app <name> -e https://github.com/PaoloJN/next-template
 ```
 
 ### Clone the Repository
@@ -34,8 +34,8 @@ npx create-next-app -e https://github.com/PaoloJN/next-template
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/nextjs13-template.git
-cd nextjs13-template
+git clone https://github.com/PaoloJN/next-template.git
+cd <name>
 ```
 
 ### Install Dependencies
